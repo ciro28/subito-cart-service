@@ -1,6 +1,6 @@
 # subito-cart-service
 
-Come avviare il tutto.
+Come avviare il tutto. Su Linux o MacOs. Su Windows non ho potuto configurare il file .bat perchè non lo avrei potuto testare
 
 ## Step 1 Eseguire i test 
 Bisogna andare con la shell nel root del progetto.
