@@ -4,8 +4,11 @@ Come avviare il tutto.
 
 ## Step 1 Eseguire i test 
 Bisogna andare con la shell nel root del progetto.
+
 Da li bisogna rendere eseguibile **test.sh** quindi avviare il seguente comando: *chmod +x scripts/test.sh*
+
 Successivamente scrivere il comando *./scripts/test.sh*
+
 Se i test ok possiamo andare con il prossimo comando.
 
 ## Step 2 Eseguire la run del progetto
