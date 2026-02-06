@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/order
+Content-Type: application/json
+
+{
+  "items": [
+    {
+      "productId": 1
+    },
+    {
+      "productId": 2
+    }
+  ]
+}
+
+###
+GET http://localhost:8080/api/order/list?page=1&size=2

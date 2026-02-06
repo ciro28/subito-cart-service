@@ -1,0 +1,48 @@
+### CREATE product 1
+POST http://localhost:8080/api/product
+Content-Type: application/json
+
+{
+  "name": "Product 1",
+  "price": 30.0,
+  "vat": 0.22
+}
+
+### CREATE product 2
+POST http://localhost:8080/api/product
+Content-Type: application/json
+
+{
+"name": "Product 2",
+"price": 20.0,
+"vat": 0.22
+}
+
+### CREATE product 3
+POST http://localhost:8080/api/product
+Content-Type: application/json
+
+{
+  "name": "Product 3",
+  "price": 30.0,
+  "vat": 0.22
+}
+
+### READ product 1
+GET http://localhost:8080/api/product/1
+
+### UPDATE product 1
+PUT http://localhost:8080/api/product/1
+Content-Type: application/json
+
+{
+  "name": "Product 1",
+  "price": 40.0,
+  "vat": 0.22
+}
+
+### DELETE product 1
+DELETE http://localhost:8080/api/product/1
+
+###
+GET http://localhost:8080/api/product/list?page=1&size=2
